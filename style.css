@@ -1,0 +1,55 @@
+/* Section Body */
+body {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-align: center;
+}
+
+/* Section Header */
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    margin-top: 20px;
+}
+
+/* Section */
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 100px;
+}
+
+section div h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 450;
+}
+
+/*
+section {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 100px;
+}
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    section div h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+}
